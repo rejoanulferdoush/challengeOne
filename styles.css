@@ -4,6 +4,7 @@
 * {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
+  scroll-behavior: smooth;
 }
 main {
   padding: 0px 150px 0px 150px;
@@ -19,6 +20,12 @@ main section {
   color: rgb(13, 19, 33);
   font-size: 28px;
   font-weight: 800;
+}
+.logo:hover {
+  scale: 180%;
+  transition: 0.5s ease;
+  cursor: progress;
+  color: rgb(0, 76, 255);
 }
 .banner__tittle {
   color: rgb(13, 19, 33);
@@ -64,6 +71,12 @@ main section {
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  border: none;
+}
+.btn__primary:hover {
+  color: #ffff;
+  background: rgb(0, 76, 255);
+  transition: 0.5s ease;
 }
 .btn__secondary {
   border-radius: 8px;
@@ -76,6 +89,12 @@ main section {
   font-weight: 600;
   background-color: #ffff;
   cursor: pointer;
+}
+.btn__secondary:hover {
+  color: #ffff;
+  background: rgb(0, 76, 255);
+  transition: 0.5s ease;
+  border: 1px solid rgb(0, 76, 255);
 }
 .btn__tertiary {
   border: 1px solid rgb(13, 19, 33);
@@ -94,7 +113,12 @@ main section {
   padding: 40px 150px 40px 150px;
 }
 .banner {
-  background-image: url(/assets/Hero-bg.png);
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 30%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(/assets/Hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,6 +287,11 @@ main section {
   font-weight: 600;
   border: none;
   cursor: pointer;
+}
+.support__submit input[type="submit"]:hover {
+  color: #ffff;
+  background: rgb(0, 76, 255);
+  transition: 0.5s ease;
 }
 /* foot styles */
 .foot__container {
