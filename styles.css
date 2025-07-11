@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* global styles */
+* {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+}
+main{
+    padding: 0px 150px 0px 150px;
+}
+/* Common styles */
+.mt{
+    margin-top: 30px;
+}
+.logo {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+}
+.banner__tittle {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+}
+.pText {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.section__tittle {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  color: rgb(13, 19, 33);
+}
+.section__tittle--inner {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.content__inner--tittle {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.content__innerlink--tittle {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.btn__primary {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn__secondary {
+  border-radius: 8px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 17px 24px 17px 24px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffff;
+  cursor: pointer;
+}
+.btn__tertiary {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* nav styles */
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 150px 40px 150px ;
+}
+.banner{
+    background-image: url(/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner__container{
+    padding: 45px 200px;
+}
