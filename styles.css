@@ -150,11 +150,52 @@ main section {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-   padding: 48px;
+  padding: 48px;
   border-radius: 16px;
   background: linear-gradient(
     90deg,
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
+}
+/* inspiration styles */
+.inspiration {
+  text-align: center;
+}
+.video__frame {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 32px;
+  border-radius: 16px;
+  width: 1076px;
+  margin: 0 auto;
+}
+.video__frame iframe {
+  border-radius: 10px;
+}
+/* my target styles */
+.target__head {
+  text-align: center;
+}
+.target__card--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.target__card--one {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.target__card--two {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.target__card--three {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
