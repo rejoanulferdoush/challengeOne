@@ -199,3 +199,26 @@ main section {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
+/* next target */
+.next__target--head {
+  text-align: center;
+}
+.next__target__container--card{
+    margin-top: 50px;
+}
+.next__card--one, .next__card--two, .next__card--three{
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+}
+.next__card--image{
+    width: 200px;
+    text-align: center;
+}
+
