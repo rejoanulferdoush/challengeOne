@@ -203,10 +203,12 @@ main section {
 .next__target--head {
   text-align: center;
 }
-.next__target__container--card{
-    margin-top: 50px;
+.next__target__container--card {
+  margin-top: 50px;
 }
-.next__card--one, .next__card--two, .next__card--three{
+.next__card--one,
+.next__card--two,
+.next__card--three {
   padding: 40px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
@@ -217,8 +219,57 @@ main section {
   align-items: center;
   gap: 30px;
 }
-.next__card--image{
-    width: 200px;
-    text-align: center;
+.next__card--image {
+  width: 200px;
+  text-align: center;
 }
-
+/* support styles */
+.support {
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 30%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(/assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 48px 60px;
+  border-radius: 16px;
+}
+.support__head {
+  text-align: center;
+}
+.support__submit {
+  text-align: center;
+}
+.support__submit input[type="text"] {
+  padding: 19px 20px 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  outline: none;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  width: 548px;
+}
+.support__submit input[type="submit"] {
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+/* foot styles */
+.foot__container {
+  padding: 40px 150px 32px 150px;
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
